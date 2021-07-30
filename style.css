@@ -1,4 +1,36 @@
-p {
+body {
     font-family: 'Courier New', Courier, monospace;
-
+    background: burlywood;
 }
+
+img {
+    height: 15%;
+    width: 15%;
+    float: right;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: royalblue;
+}
+
+#navbar li {
+    float: left; 
+}
+
+#navbar li a {
+    display: block;
+    padding: 8px;
+    margin: 8px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: turquoise;
+}
+
