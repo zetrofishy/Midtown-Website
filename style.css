@@ -34,3 +34,11 @@ img {
     background-color: turquoise;
 }
 
+.active {
+    background-color: teal;
+}
+
+h1 {
+    text-align:center
+}
+
