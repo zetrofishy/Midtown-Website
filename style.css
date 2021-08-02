@@ -85,15 +85,6 @@ body {
     background-color: turquoise;
 }
 
-.topnav ul{
-    display: block;
-}
-
-.nav-center ul li a { 
-    float: left;
-    transform: translate(240px, 0%);
-}
-
 .active {
     background-color: teal;
 }
@@ -104,4 +95,10 @@ h1 {
 
 p {
     text-align: center;
+}
+
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
