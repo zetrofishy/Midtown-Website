@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background: burlywood;
+    background-color: dodgerblue;
 }
 
 img {
@@ -10,15 +10,16 @@ img {
 }
 
 #navbar {
+    position: relative;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: royalblue;
+    background-color: royalblue;  
 }
 
 #navbar li {
-    float: left; 
+    float: left;   
 }
 
 #navbar li a {
@@ -27,11 +28,22 @@ img {
     margin: 8px;
     color: white;
     text-align: center;
+    list-style-type: none;
     text-decoration: none;
+    
 }
 
 #navbar li a:hover {
     background-color: turquoise;
+}
+
+.topnav ul{
+    display: block;
+}
+
+.nav-center ul li a { 
+    float: left;
+    transform: translate(240px, 0%);
 }
 
 .active {
