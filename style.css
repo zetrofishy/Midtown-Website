@@ -16,6 +16,17 @@ body {
     float: right;
     margin-top: 0px;
 }
+#leads {
+    height: 70%;
+    width: 40%;
+    float: right;
+}
+
+#smash {
+    height: 70%;
+    width: 40%;
+    float: right;
+}
 
 #apps {
     height: 15%;
@@ -24,21 +35,6 @@ body {
     margin-left: auto;
     margin-right: auto;   
 }
-#PS5 {
-    height: 10%;
-    width: 15%;
-    display: block;
-    margin-left: auto;   
-} 
-
-#XBOX {
-    height: 10%;
-    width: 15%;
-    display: block;
-    margin-left: auto;  
-}
-}
-
 
 #mark {
     height: 15%;
