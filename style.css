@@ -9,6 +9,10 @@ img {
     float: right;
 }
 
+.contact {
+    
+}
+
 #navbar {
     position: relative;
     list-style-type: none;
@@ -30,7 +34,6 @@ img {
     text-align: center;
     list-style-type: none;
     text-decoration: none;
-    
 }
 
 #navbar li a:hover {
